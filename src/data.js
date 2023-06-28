@@ -1,4 +1,5 @@
 //  icons
+// eslint-disable-next-line import/no-extraneous-dependencies
 import {
   FiInstagram,
   FiGithub,
@@ -151,35 +152,35 @@ export const projectsData = [
     id: '5',
     image: Project5,
     name: 'U&I Technology',
-    href:'https://ui-cleaning-services.business.site/',
+    href: 'https://ui-cleaning-services.business.site/',
     category: 'branding',
   },
   {
     id: '6',
     image: Project6,
     name: 'U&I Designs',
-    href:'https://ui-cleaning-services.business.site/',
+    href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
   {
     id: '7',
     image: Project7,
     name: 'U&I Designs',
-    href:'https://ui-cleaning-services.business.site/',
+    href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
   {
     id: '8',
     image: Project8,
     name: 'U&I Technology',
-    href:'https://ui-cleaning-services.business.site/',
+    href: 'https://ui-cleaning-services.business.site/',
     category: 'branding',
   },
   {
     id: '9',
     image: Project9,
     name: 'U&I Designs',
-    href:'https://ui-cleaning-services.business.site/',
+    href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
 ];
@@ -233,26 +234,26 @@ export const services = [
   {
     icon: <FiLayout />,
     name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    description: `Partnerss with influential bloggers, content creators, or industry experts. 
+    We provide exceptional service and maintain good relationships with clients. Satisfied clients are more likely to recommend your services to others.`,
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    description: `I write code and develop software applications using various programming languages, 
+    frameworks, and tools. I follow best practices, coding standards, and adhere to project guidelines.`,
   },
   {
     icon: <FiPenTool />,
     name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    description: `We provide highly rated products for big and small companies as well as individuals. 
+    Our services are the best with efficiency and quality serving as our top priority for customers happiness`,
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'We master in optimization and improving the visibility. Our goal is to increase organic (non-paid) traffic to a website by making it more relevant and authoritative in the eyes of',
   },
 ];
 
@@ -260,24 +261,29 @@ export const services = [
 export const testimonials = [
   {
     authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorText: `Love the simplicity of the service. Good design, will recommend 
+    you to my colleages for a project collaboration.`,
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      `I worked remotely with Felix on a React project. His technical and soft skills made the pair 
+      programming very enjoyable. The one more thing that I truly admire in him is, his determination 
+      to find solutions whenever were facing blockers. To all recruiters out there,
+      Felix can deliver the job as Software Engineer.`,
+    authorName: 'Anny Lane',
+    authorPosition: 'Head of Design, Netflix',
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      `He is a great developer who is always eager to learn and better himself at every opportunity. 
+      An amazing personality who loves a good laugh.
+      Truly a great person to have on your team. He would be a good fit for any projects you assigned to him.`,
+    authorName: 'Brenda May',
+    authorPosition: 'Project Manager, Meta',
   },
 ];
 

@@ -13,22 +13,20 @@ import BackToTopBtn from './components/BackToTopBtn';
 
 // import components
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <Brands />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Services />
-      <Testimonials />
-      <Contact />
-      <Footer />
-      <BackToTopBtn />
-    </div>
-  )
-};
+const App = () => (
+  <div>
+    <Header />
+    <Hero />
+    <Brands />
+    <About />
+    <Skills />
+    <Portfolio />
+    <Services />
+    <Testimonials />
+    <Contact />
+    <Footer />
+    <BackToTopBtn />
+  </div>
+);
 
 export default App;

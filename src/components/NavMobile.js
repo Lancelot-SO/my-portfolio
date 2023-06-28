@@ -1,9 +1,9 @@
+/* eslint-disable */
 import React, { useState } from 'react';
-import { navigation } from '../data';
-import { XIcon } from '@heroicons/react/outline';
-import { MenuAlt3Icon } from '@heroicons/react/outline';
+import { XIcon, MenuAlt3Icon } from '@heroicons/react/outline';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { navigation } from '../data';
 
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +38,10 @@ const NavMobile = () => {
   return (
     <nav className="relative">
       {/* mobile menu button */}
-      <div onClick={() => setIsOpen(true)} 
-      className="cursor-pointer text-white">
+      <div
+        onClick={() => setIsOpen(true)}
+        className="cursor-pointer text-white"
+      >
         <MenuAlt3Icon className="w-8 h-8" />
       </div>
 
@@ -48,7 +50,7 @@ const NavMobile = () => {
         initial="hidden"
         animate={isOpen ? 'visible' : 'hidden'}
         className="w-4 h-4 rounded-full bg-accent fixed top-0 right-0"
-      ></motion.div>
+      />
 
       {/* menu links */}
       <motion.ul
@@ -61,25 +63,31 @@ const NavMobile = () => {
         duration-300 overflow-hidden`}
       >
         {/* close icon */}
-        <div onClick={() => setIsOpen(false)} 
-        className="cursor-pointer absolute 
-        top-8 right-8">
+        <div
+          onClick={() => setIsOpen(false)}
+          className="cursor-pointer absolute
+        top-8 right-8"
+        >
           <XIcon className="w-8 h-8" />
         </div>
-        {navigation.map((item, index) => {
-          return (
-            <li key={index}
-            className='mb-8'>
-              <Link 
+        {navigation.map((item, index) => (
+          <li
+            key={index}
+            className="mb-8"
+          >
+            <Link
               to={item.href}
-              smooth={true}
+              smooth
               duration={500}
               offset={-70}
-              className='text-xl cursor-pointer
-              capitalize'> {item.name}</Link>
-            </li>
-          )
-        })}
+              className="text-xl cursor-pointer
+              capitalize"
+            >
+              {' '}
+              {item.name}
+            </Link>
+          </li>
+        ))}
       </motion.ul>
     </nav>
   );
