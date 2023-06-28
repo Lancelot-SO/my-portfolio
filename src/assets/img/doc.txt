@@ -1,0 +1,175 @@
+require 'rails_helper'
+
+RSpec.describe Food, type: :model do
+  subject do
+    @user = User.create(name: 'Lance')
+    @food = Food.create(name: 'flour', measurement_unit: 'grams', price: 2, quantity: 15, user_id: @user.id)
+  end
+
+  before { subject.save }
+
+  it 'Name should be present' do
+    subject.name = nil
+    expect(subject).to_not be_valid
+  end
+
+  it 'Name should have valid value' do
+    expect(subject.name).to eql 'flour'
+  end
+
+  it 'Measurement unit should have a valid value' do
+    expect(subject.measurement_unit).to eql 'grams'
+  end
+
+  it 'Price should be present' do
+    subject.price = -2
+    expect(subject).to_not be_valid
+  end
+
+  it 'Quantity should be present' do
+    subject.quantity = nil
+    expect(subject).to_not be_valid
+  end
+end
+
+
+
+def partition(array, begin_index, end_index)
+  # write code here
+  pivot = array[end_index]
+  j = begin_index
+  for i in begin_index...end_index
+    if array[i] < pivot
+      array[i], array[j] = array[j], array[i]
+      j += 1
+    end
+  end
+  array[end_index], array[j] = array[j], array[end_index]
+  j
+end
+
+def advanced_quicksort(array, begin_index = 0, end_index = array.length - 1)
+  if begin_index < end_index
+    pivot = partition(array, begin_index, end_index)
+    puts "#{array}"
+    advanced_quicksort(array, begin_index, pivot - 1)
+    advanced_quicksort(array, pivot + 1, end_index)
+  end
+end
+
+# Example usage:
+array = [7, 2, 1, 6, 8, 5, 3, 4]
+advanced_quicksort(array)
+puts "#{array}"
+
+
+advanced_quicksort([1, 3, 9, 8, 2, 7, 5])
+# => 1 3 2 5 9 7 8
+#    1 2 3 5 9 7 8
+#    1 2 3 5 7 8 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Information Update</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; align-items:center; margin-left: 400px; margin-right: 50px;min-width: 1024px;">
+    <p style="font-weight: 500; color:lightgray; text-align:right;margin-right:70px">Data Classification Label:General</p>
+    <p style="text-align: left; padding-top: 30px; padding-bottom: 30px;">Date.........</p>
+    <p style="text-align: left;font-weight:bold; font-size:larger;padding-bottom: 30px;">Customer’s registered address</p>
+    <br>
+    <p style="text-align: left; padding-bottom: 15px;">
+      Dear Customer,
+    </p>
+    <p style="text-align: center; font-size: larger; font-weight:bold; margin-right:250px; text-decoration:underline">
+      CUSTOMER INFORMATION UPDATE AND REGULARISATION OF OUTSTANDING <br> 
+      DOCUMENT(S) ON YOUR ACCOUNT
+    </p>
+    <p style="text-align: left;">
+      We refer to the following account(s) which you maintain with us.
+    </p>
+    <table style="width: 50%; text-align: center; border-collapse: collapse;">
+        <tr>
+          <th style="border: 1px solid black; padding: 8px;">No.</th>
+          <th style="border: 1px solid black; padding: 8px;">Account Number</th>
+          <th style="border: 1px solid black; padding: 8px;">Account Type</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">1</td>
+          <td style="border: 1px solid black; padding: 8px;">0000000000000</td>
+          <td style="border: 1px solid black; padding: 8px;">Current Account</td>
+        </tr>
+      </table>
+    <p style="text-align: left; text-align:justify;">
+      Pursuant of Bank of Ghana’s Know Your Customer (KYC) requirements and indeed our <br>bank’s policy on account opening documentation,we are constrained to request that you <br>forward to us the underlisted outstanding documents in your account documentation.
+    </p>
+    <ol style="text-align: left;">
+      <li style="font-weight: bold;">ID - (the deferred item)</li>
+      <li style="font-weight: bold;">Passport - (the deferred item)</li>
+    </ol>
+    <p style="text-align:justify;">
+      In line with the regulatory requirements, we kindly request that you provide us with a copy <br>of the outstanding document(s) listed above.
+    </p>
+    <p style="text-align:justify;">
+      Please be informed that further to the regulatory directives, failure to provide the<br> aforementioned documents after <b>7/14 working days</b> from the date of this letter will<br> constrain the bank to disallow any future transaction on your account(s) until such a time <br>that the documents are made available to us.
+    </p>
+    <p style="text-align:justify;">
+      We thank you for your prompt response and anticipated co-operation in this regard.
+    </p>
+    <p style="text-align:justify; padding-bottom: 10px;">
+      Kindly acknowledge receipt on the attached copy of this letter.
+    </p>
+    <p style="text-align: left;">
+      Thank you.
+    </p>
+    <br>
+    <p style="text-align: left;">
+      Yours faithfully,
+    </p>
+    <br/>
+    <p style="font-weight: 500; color:lightgray;">For Internal Use</p>
+    <br>
+    <table style="width: 100%; text-align: center;">
+      <tr>
+        <td>
+          <p style="text-align: left;">
+            Ama Kofi
+          </p>
+          <p style="text-align: left;">
+            Branch Manager
+          </p>
+        </td>
+        <td>
+          <p style="text-align: left;">
+            Ama Kofi
+          </p>
+          <p style="text-align: left;">
+            Cluster Manager
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
