@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../assets/img/bgg.webp';
+import bg from '../assets/img/profile.png';
 
 const Hero = () => (
   <section
