@@ -20,13 +20,7 @@ const Testimonials = () => (
           What other people say
         </h2>
         <p className="subtitle">
-          Lorem ipsum dolor, sit amrt consectetur
-          adipsicing elit. Facilis,
-          quis add.
-          <br />
-          Lorem ipsum dolor, sit amrt consectetur
-          adipsicing elit. Facilis,
-          quis add.
+          These are some of the things clients and friends say about me and the services I render
         </p>
       </div>
       <TestimonialSlider />

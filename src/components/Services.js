@@ -20,13 +20,8 @@ const Services = () => (
           What I do for Clients
         </h2>
         <p className="subtitle">
-          Lorem ipsum dolor, sit amrt consectetur
-          adipsicing elit. Facilis,
-          quis add.
-          <br />
-          Lorem ipsum dolor, sit amrt consectetur
-          adipsicing elit. Facilis,
-          quis add.
+          Please take a moment to browse through a selection of the services I
+          render for clients.
         </p>
       </div>
       <div className="grid lg:grid-cols-4 gap-8">
