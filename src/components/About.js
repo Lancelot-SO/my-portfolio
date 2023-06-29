@@ -42,7 +42,7 @@ const About = () => (
               to expand my knowledge and skill set.
               As a relatively new Full-Stack Developer,
               I possess proficiency in JavaScript, React.js, Redux, Ruby on Rails, HTML,
-              CSS, Postgresql, and MySQL. Starting from March 2022,
+              CSS, Postgresql, and MySQL. Starting from November 2022,
               I have been honing my technical prowess, leadership abilities,
               and collaborative skills at Microverse. During this time,
               I have had the privilege of collaborating and engaging in pair
