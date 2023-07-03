@@ -24,9 +24,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -72,7 +69,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[portofolio Desktop app]**
+- **[Portfolio(projects) section]**
+- **[About section]**
+- **[Testimonials section]**
+- **[Contact section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://lancelot-so.github.io/my-portfolio/)
+[Live Demo Link](https://64a278a2f8f8e65bb4ff44cd--splendid-fairy-b9b1e7.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +159,7 @@ Example:
 
 <!-- AUTHORS -->
 
-👤 **Author**
+👤 **Felix Sowah**
 
 - Github: [@githubhandle](https://github.com/Lancelot-SO)
 - Twitter: [@twitterhandle](https://twitter.com/Lancelot)
@@ -171,7 +171,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add more design]**
+- **[Add more design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
