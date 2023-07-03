@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Link } from 'react-scroll';
 import Image from '../assets/img/profile.png';
 
 const About = () => (
@@ -49,16 +51,18 @@ const About = () => (
               programming sessions with talented students from around the globe.
             </p>
           </div>
-          <a href="#contact">
-            <button
-              type="button"
-              className="btn btn-md
-                bg-accent hover:bg-accent-hover
-                transition-all"
-            >
-              Contact Me
-            </button>
-          </a>
+          <Link
+            to="contact"
+            smooth
+            duration={500}
+            offset={-100}
+            spy
+            exact="true"
+            className="cursor-pointer btn btn-md bg-accent hover:bg-accent-hover transition-all"
+          >
+            Contact Me
+          </Link>
+
         </div>
       </div>
     </div>

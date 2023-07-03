@@ -13,6 +13,17 @@ import {
   FiTwitter,
 } from 'react-icons/fi';
 
+// screenshots
+import Screenshot1 from './assets/img/screenshots/scs.png';
+import Screenshot2 from './assets/img/screenshots/bud.jpg';
+import Screenshot3 from './assets/img/screenshots/wd.jpg';
+import Screenshot4 from './assets/img/screenshots/bs1.jpg';
+import Screenshot5 from './assets/img/screenshots/alele.webp';
+import Screenshot7 from './assets/img/screenshots/music.jpg';
+import Screenshot6 from './assets/img/screenshots/watch.jpg';
+import Screenshot8 from './assets/img/screenshots/jw.jpg';
+import Screenshot9 from './assets/img/screenshots/cosmes.jpg';
+
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
@@ -21,7 +32,7 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/ss1.webp';
+import Project1 from './assets/img/projects/st.webp';
 import Project2 from './assets/img/projects/ss2.webp';
 import Project3 from './assets/img/projects/ss3.webp';
 import Project4 from './assets/img/projects/ss4.webp';
@@ -123,14 +134,28 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'CarBnB',
-    href: 'https://github.com/Lancelot-SO/carbnb-frontend',
+    name: 'SpaceTravelers',
+    details: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    github: 'Github',
+    screen: Screenshot1,
+    techstack1: 'React',
+    techstack2: 'Redux Thunk',
+    techstack3: 'Bootstrap',
+    git: 'https://github.com/Lancelot-SO/carbnb-frontend',
+    href: 'https://travelers.onrender.com',
     category: 'web development',
   },
   {
     id: '2',
     image: Project2,
     name: 'Budget App',
+    details: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    github: 'Github',
+    screen: Screenshot2,
+    techstack1: 'Ruby',
+    techstack2: 'Ruby on Rails',
+    techstack3: 'PostgreSQL',
+    git: 'https://github.com/Lancelot-SO/budget',
     href: 'https://budget-app-2wqv.onrender.com',
     category: 'web development',
   },
@@ -138,6 +163,13 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'Weather App',
+    details: 'Weather-Forecast is a React-based weather forecasting project that provides users with detailed information about countries in a chosen region, including capital, population, area, and current weather conditions such as temperature, humidity, wind speed, and atmospheric pressure. It offers an easy-to-use interface and accurate weather data.',
+    github: 'Github',
+    screen: Screenshot3,
+    techstack1: 'React',
+    techstack2: 'Redux Thunk',
+    techstack3: 'Linters',
+    git: 'https://github.com/Lancelot-SO/weather',
     href: 'https://weatherapp-lvo9.onrender.com',
     category: 'web development',
   },
@@ -145,41 +177,78 @@ export const projectsData = [
     id: '4',
     image: Project4,
     name: 'Bookstore',
+    details: 'This is a bookstore app that takes user input and displays books on the screen with title and author of the book.',
+    github: 'Github',
+    screen: Screenshot4,
+    techstack1: 'React',
+    techstack2: 'Redux Thunk',
+    techstack3: 'Linters',
+    git: 'https://github.com/Lancelot-SO/bookstore',
     href: 'https://store-oi8n.onrender.com',
     category: 'web development',
   },
   {
     id: '5',
     image: Project5,
-    name: 'U&I Technology',
+    name: 'ALE Beer',
+    details: 'The ever-evolving nature of technology constantly raises the bar for innovation. This particular design aims to revolutionize the beverages industry by effectively advertising products and ensuring easy accessibility for individuals of all backgrounds.',
+    github: 'Github',
+    screen: Screenshot5,
+    techstack1: 'Figma',
+    techstack2: 'Adobe  Photoshop',
+    git: 'https://github.com/Lancelot-SO/',
     href: 'https://ui-cleaning-services.business.site/',
     category: 'branding',
   },
   {
     id: '6',
     image: Project6,
-    name: 'U&I Designs',
+    name: 'Top Fashion',
+    details: 'Innovations in tech keeps shifting to a higher standard. This design is geared to help promote the fashion industry by advertising and making products readily available to all individuals.',
+    github: 'Github',
+    screen: Screenshot6,
+    techstack1: 'Figma',
+    techstack2: 'Adobe  Photoshop',
+    git: 'https://github.com/Lancelot-SO/',
     href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
   {
     id: '7',
     image: Project7,
-    name: 'U&I Designs',
+    name: 'Musique',
+    details: 'Innovations in tech keeps shifting to a higher standard. This design is geared to help promote the music industry by advertising and making products readily available to all individuals.',
+    github: 'Github',
+    screen: Screenshot7,
+    techstack1: 'Figma',
+    techstack2: 'Adobe  Photoshop',
+    git: 'https://github.com/Lancelot-SO/',
     href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
   {
     id: '8',
     image: Project8,
-    name: 'U&I Technology',
+    name: 'Jewelry',
+    details: 'Innovations in tech keeps shifting to a higher standard. This design is geared to help promote the Jewelry industry by advertising and making products readily available to all individuals.',
+    github: 'Github',
+    screen: Screenshot8,
+    techstack1: 'Figma',
+    techstack2: 'Adobe  Photoshop',
+    git: 'https://github.com/Lancelot-SO/',
     href: 'https://ui-cleaning-services.business.site/',
     category: 'branding',
   },
   {
     id: '9',
     image: Project9,
-    name: 'U&I Designs',
+    name: 'Cosmes',
+    details: 'Innovations in tech keeps shifting to a higher standard. This design is geared to help promote the cosmetics industry by advertising and making products readily available to all individuals.',
+    github: 'Github',
+    screen: Screenshot9,
+    techstack1: 'Figma',
+    techstack2: 'Adobe  Photoshop',
+    git: 'https://github.com/Lancelot-SO/',
     href: 'https://ui-cleaning-services.business.site/',
     category: 'UI/UX design',
   },
@@ -205,27 +274,35 @@ export const projectsNav = [
 export const skills = [
   {
     image: SkillImg1,
+    name: 'HTML',
   },
   {
     image: SkillImg2,
+    name: 'CSS',
   },
   {
     image: SkillImg3,
+    name: 'JavaScript',
   },
   {
     image: SkillImg4,
+    name: 'Reactjs',
   },
   {
     image: SkillImg5,
+    name: 'Ruby on Rails',
   },
   {
     image: SkillImg6,
+    name: 'HTML',
   },
   {
     image: SkillImg7,
+    name: 'Git',
   },
   {
     image: SkillImg8,
+    name: 'Figma',
   },
 ];
 

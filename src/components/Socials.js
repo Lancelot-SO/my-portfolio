@@ -10,7 +10,7 @@ const Socials = () => (
         // eslint-disable-next-line react/no-array-index-key
         key={index}
       >
-        <a className="text-base" href={item.href}>
+        <a className="text-base" href={item.href} target="_blank" rel="noopener noreferrer">
           {item.icon}
         </a>
       </li>
