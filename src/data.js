@@ -18,7 +18,7 @@ import Screenshot1 from './assets/img/screenshots/scs.png';
 import Screenshot2 from './assets/img/screenshots/bud.jpg';
 import Screenshot3 from './assets/img/screenshots/wd.jpg';
 import Screenshot4 from './assets/img/screenshots/bs1.jpg';
-import Screenshot5 from './assets/img/screenshots/alele.webp';
+import Screenshot5 from './assets/img/screenshots/advise.jpg';
 import Screenshot7 from './assets/img/screenshots/music.jpg';
 import Screenshot6 from './assets/img/screenshots/watch.jpg';
 import Screenshot8 from './assets/img/screenshots/jw.jpg';
@@ -36,7 +36,7 @@ import Project1 from './assets/img/projects/st.webp';
 import Project2 from './assets/img/projects/ss2.webp';
 import Project3 from './assets/img/projects/ss3.webp';
 import Project4 from './assets/img/projects/ss4.webp';
-import Project5 from './assets/img/projects/p5.webp';
+import Project5 from './assets/img/projects/advise.webp';
 import Project6 from './assets/img/projects/p6.webp';
 import Project7 from './assets/img/projects/p1.webp';
 import Project8 from './assets/img/projects/p2.webp';
@@ -194,16 +194,16 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'ALE Beer',
-    details: 'The ever-evolving nature of technology constantly raises the bar for innovation. This particular design aims to revolutionize the beverages industry by effectively advertising products and ensuring easy accessibility for individuals of all backgrounds.',
+    name: 'Advice Me',
+    details: 'This is a project aim to give advise to people seeking advise in life ',
     github: 'Github',
     demo: 'Demo',
     screen: Screenshot5,
-    techstack1: 'Figma',
-    techstack2: 'Adobe  Photoshop',
-    git: 'https://github.com/Lancelot-SO/',
-    href: 'https://ui-cleaning-services.business.site/',
-    category: 'branding',
+    techstack1: 'Vite',
+    techstack2: 'React',
+    git: 'https://github.com/Lancelot-SO/advice-project',
+    href: 'https://fanciful-lokum-b5e77d.netlify.app/',
+    category: 'web development',
   },
   {
     id: '6',
