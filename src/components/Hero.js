@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import bg from '../assets/img/profile.png';
 import resumePDF from '../assets/img/My-resume.pdf';
@@ -33,11 +34,11 @@ const Hero = () => {
               md:text-5xl md:leading-tight lg:text-6xl
               lg:leading-[1.2] font-500 md:tracking-[-2px]"
             >
-              I am a UI/UX Designer &
+              I am a Full-stack Web Developer &
               {' '}
               <br />
               {' '}
-              Full-stack Web Developer
+              UI/UX Designer
             </h2>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12
               max-w-[480px] text-lg texxt-center

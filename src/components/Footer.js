@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import { social } from '../data';
 import logo from '../assets/img/logo.svg';

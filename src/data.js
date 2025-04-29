@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 //  icons
 // eslint-disable-next-line import/no-extraneous-dependencies
 import {

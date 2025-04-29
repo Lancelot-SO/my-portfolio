@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { animateScroll as scroll } from 'react-scroll';
@@ -18,16 +19,16 @@ const BackToTopBtn = () => {
 
   return (
     show && (
-    <button
-      type="button"
-      onClick={() => scrollToTop()}
-      className="bg-accent w-12 h-12
+      <button
+        type="button"
+        onClick={() => scrollToTop()}
+        className="bg-accent w-12 h-12
         hover:bg-accent-hover text-white rounded-full
         fixed right-24 bottom-24 cursor-pointer flex
         justify-center items-center transition-all"
-    >
-      <ChevronUpIcon className="w-6 h-6" />
-    </button>
+      >
+        <ChevronUpIcon className="w-6 h-6" />
+      </button>
     )
   );
 };

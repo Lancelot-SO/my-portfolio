@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 
 /* eslint-disable */

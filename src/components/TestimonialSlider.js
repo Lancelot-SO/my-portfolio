@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 import Nav from './Nav';

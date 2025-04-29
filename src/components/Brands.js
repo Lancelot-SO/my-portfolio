@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import { brands } from '../data';
 
@@ -10,13 +11,13 @@ const Brands = () => (
       justify-evenly"
     >
       {
-            brands.map((brand, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <div key={index}>
-                <img src={brand.img} alt="brands" />
-              </div>
-            ))
-        }
+        brands.map((brand, index) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <div key={index}>
+            <img src={brand.img} alt="brands" />
+          </div>
+        ))
+      }
     </div>
   </section>
 );
