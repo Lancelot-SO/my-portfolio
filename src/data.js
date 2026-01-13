@@ -33,7 +33,7 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/st.webp';
+import Project1 from './assets/img/projects/st.png';
 import Project2 from './assets/img/projects/ss2.webp';
 import Project3 from './assets/img/projects/ss3.webp';
 import Project4 from './assets/img/projects/ss4.webp';
@@ -135,16 +135,16 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'SpaceTravelers',
-    details: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    name: 'Divine Support Services',
+    details: 'Divine Support Solutions is a compassionate care home and support services agency dedicated to providing high-quality, person-centred care for individuals who require assistance to live safely, comfortably, and with dignity. The agency supports older adults, individuals with disabilities, and those with long-term or complex care needs, either within residential care settings or in their own homes.',
     github: 'Github',
     demo: 'Demo',
     screen: Screenshot1,
     techstack1: 'React',
     techstack2: 'Redux Thunk',
     techstack3: 'Bootstrap',
-    git: 'https://github.com/Lancelot-SO/carbnb-frontend',
-    href: 'https://travelers.onrender.com',
+    git: 'https://github.com/Lancelot-SO/divine_support',
+    href: 'https://dss-inc.org/',
     category: 'web development',
   },
   {
